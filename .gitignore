@@ -1,0 +1,10 @@
+node_modules/
+.pnpm-store/
+*.log
+.DS_Store
+Thumbs.db
+
+# runtime data written under $DSH_HOME/erii-pet (never inside the package)
+config.json
+memory.json
+voice-cache/

@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 560" width="420" height="560" role="img" aria-label="绘梨衣 chibi">
+  <defs>
+    <linearGradient id="hair-back" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#8a2d3f"/>
+      <stop offset="0.55" stop-color="#651b2a"/>
+      <stop offset="1" stop-color="#3f0e1b"/>
+    </linearGradient>
+    <linearGradient id="hair-front" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#a13b4c"/>
+      <stop offset="0.55" stop-color="#762636"/>
+      <stop offset="1" stop-color="#4c1322"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0.1" y2="1">
+      <stop offset="0" stop-color="#fdf3ea"/>
+      <stop offset="0.6" stop-color="#fbe6d8"/>
+      <stop offset="1" stop-color="#f3d2c1"/>
+    </linearGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#fffdfa"/>
+      <stop offset="0.7" stop-color="#f8f0ea"/>
+      <stop offset="1" stop-color="#ebddd6"/>
+    </linearGradient>
+    <linearGradient id="skirt" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#b52c46"/>
+      <stop offset="0.55" stop-color="#991d35"/>
+      <stop offset="1" stop-color="#6c1023"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#c3324b"/>
+      <stop offset="1" stop-color="#8c1730"/>
+    </linearGradient>
+    <linearGradient id="shoe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a12636"/>
+      <stop offset="1" stop-color="#5c0d1b"/>
+    </linearGradient>
+    <radialGradient id="iris" cx="0.42" cy="0.3" r="0.85">
+      <stop offset="0" stop-color="#f08696"/>
+      <stop offset="0.36" stop-color="#c62e4a"/>
+      <stop offset="0.74" stop-color="#880f28"/>
+      <stop offset="1" stop-color="#560616"/>
+    </radialGradient>
+    <radialGradient id="blush" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f39b9b" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f39b9b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bangs-shadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c98f7c" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#c98f7c" stop-opacity="0"/>
+    </linearGradient>
+
+    <g id="eye">
+      <path d="M167 224 C167 211 173 205 184 205 C195 205 201 212 201 224 C201 234 195 240 184 240 C173 240 167 233 167 224 Z" fill="#fffbf9"/>
+      <ellipse cx="184" cy="222" rx="11.6" ry="13.4" fill="url(#iris)"/>
+      <ellipse cx="184" cy="225" rx="4.8" ry="5.8" fill="#360410"/>
+      <ellipse cx="184" cy="232" rx="7.6" ry="3.4" fill="#ee7688" opacity="0.38"/>
+      <ellipse cx="178.6" cy="216" rx="4" ry="4.8" fill="#ffffff" opacity="0.97" transform="rotate(-16 178.6 216)"/>
+      <circle cx="190.5" cy="231" r="1.9" fill="#ffffff" opacity="0.85"/>
+      <path d="M165 226 C165 209 172 201 184 201 C194 201 201 207 203 217 L196 219 C194 211 190 208 184 208 C175 208 170 215 170 228 Z" fill="#3d1220"/>
+      <path d="M165 226 C161 220 159 213 160 207 L166 209 C165 216 166 221 168 226 Z" fill="#3d1220" opacity="0.9"/>
+      <path d="M169 232 C172 238 177 240 183 240" fill="none" stroke="#8d4a52" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+    </g>
+  </defs>
+
+  <!-- 地面阴影 -->
+  <ellipse cx="210" cy="504" rx="70" ry="7" fill="#2a0a12" opacity="0.12"/>
+
+  <!-- 后发 -->
+  <path d="M210 118 C256 118 284 148 286 198 C288 246 282 292 278 334 C275 370 272 406 270 436 C256 444 236 448 210 448 C184 448 164 444 150 436 C148 406 145 370 142 334 C138 292 132 246 134 198 C136 148 164 118 210 118 Z" fill="url(#hair-back)"/>
+  <path d="M140 240 C136 300 142 370 148 414 C150 428 151 434 152 438 L172 442 C164 406 159 354 157 300 C156 260 158 228 162 200 Z" fill="#9c4053" opacity="0.18"/>
+  <path d="M280 240 C284 300 278 370 272 414 C270 428 269 434 268 438 L248 442 C256 406 261 354 263 300 C264 260 262 228 258 200 Z" fill="#9c4053" opacity="0.1"/>
+
+  <!-- 腿与鞋 -->
+  <g>
+    <path d="M186 442 L204 442 L203 478 C203 483 199 485 195 485 C191 485 186 483 186 478 Z" fill="#fffdfa"/>
+    <path d="M216 442 L234 442 L233 478 C233 483 229 485 225 485 C221 485 216 483 216 478 Z" fill="#fffdfa"/>
+    <path d="M187 460 C192 463 198 463 202 460 L202 474 C198 477 191 477 187 474 Z" fill="#e4d9d4" opacity="0.5"/>
+    <path d="M217 460 C222 463 228 463 232 460 L232 474 C228 477 221 477 217 474 Z" fill="#e4d9d4" opacity="0.5"/>
+    <path d="M183 478 C183 472 188 469 195 469 C202 469 207 474 207 480 L207 494 C207 500 201 503 194 503 C187 503 183 500 183 494 Z" fill="url(#shoe)"/>
+    <path d="M213 478 C213 472 218 469 225 469 C232 469 237 474 237 480 L237 494 C237 500 231 503 224 503 C217 503 213 500 213 494 Z" fill="url(#shoe)"/>
+    <path d="M186 476 C191 473 200 473 205 476" fill="none" stroke="#410914" stroke-width="1.9" stroke-linecap="round" opacity="0.45"/>
+    <path d="M216 476 C221 473 230 473 235 476" fill="none" stroke="#410914" stroke-width="1.9" stroke-linecap="round" opacity="0.45"/>
+  </g>
+
+  <!-- 裙子 -->
+  <path d="M180 362 L240 362 C247 388 254 416 258 442 C234 452 186 452 162 442 C166 416 173 388 180 362 Z" fill="url(#skirt)"/>
+  <path d="M192 364 L187 440 C193 444 198 446 203 447 L206 364 Z" fill="#5e0e1f" opacity="0.18"/>
+  <path d="M220 364 L222 448 C228 447 233 445 237 442 L232 364 Z" fill="#5e0e1f" opacity="0.14"/>
+  <path d="M240 362 C247 388 254 416 258 442 C254 446 249 449 242 451 C247 428 244 394 240 362 Z" fill="#4f0a18" opacity="0.2"/>
+  <path d="M162 442 C186 452 234 452 258 442 L258 447 C234 457 186 457 162 447 Z" fill="#4f0a18" opacity="0.45"/>
+
+  <!-- 上衣 -->
+  <path d="M168 302 C176 292 192 288 210 288 C228 288 244 292 252 302 L248 336 L244 356 L176 356 L172 336 Z" fill="url(#cloth)"/>
+  <path d="M210 288 C228 288 244 292 252 302 L248 336 L244 356 L210 356 Z" fill="#e8dcd5" opacity="0.38"/>
+  <!-- 交领 -->
+  <path d="M172 294 C180 290 189 296 210 330 L205 339 C190 308 182 301 168 298 Z" fill="url(#red)"/>
+  <path d="M248 294 C240 290 231 296 210 330 L215 339 C230 308 238 301 252 298 Z" fill="url(#red)"/>
+  <path d="M173 300 C180 302 187 310 203 334" fill="none" stroke="#ffffff" stroke-width="1.2" opacity="0.35"/>
+  <path d="M247 300 C240 302 233 310 217 334" fill="none" stroke="#ffffff" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- 腰带 -->
+  <path d="M176 340 L244 340 L245 362 L175 362 Z" fill="url(#red)"/>
+  <path d="M176 340 L244 340 L244 345 L176 345 Z" fill="#e05b72" opacity="0.18"/>
+  <path d="M196 350 C191 345 185 345 185 350 C185 355 191 355 196 352 Z" fill="#c22c45"/>
+  <path d="M196 350 C201 345 207 345 207 350 C207 355 201 355 196 352 Z" fill="#c22c45"/>
+  <ellipse cx="196" cy="351" rx="2.6" ry="3.2" fill="#8c1730"/>
+
+  <!-- 手臂 -->
+  <g>
+    <path d="M172 302 C163 322 156 356 155 388 C155 402 157 410 160 417 L173 414 C169 404 168 392 169 378 C171 350 176 322 186 304 Z" fill="url(#cloth)"/>
+    <path d="M169 378 C168 392 169 404 173 414 L160 417 C157 410 155 402 155 388 C155 380 156 370 158 360 Z" fill="#e8dcd5" opacity="0.4"/>
+    <path d="M155 408 C162 415 170 415 175 408 L176 419 C170 425 161 425 156 419 Z" fill="url(#red)"/>
+    <g transform="rotate(-8 160 431)">
+      <ellipse cx="160" cy="431" rx="8.2" ry="9.6" fill="url(#skin)"/>
+      <path d="M154 427 C151 430 152 435 155 437" fill="none" stroke="#e6bcab" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M158 426 L158 437" fill="none" stroke="#e6bcab" stroke-width="1" stroke-linecap="round" opacity="0.55"/>
+      <path d="M161.5 426 L161.8 437" fill="none" stroke="#e6bcab" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+      <path d="M165 427 L165 436" fill="none" stroke="#e6bcab" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+    </g>
+  </g>
+  <g transform="translate(420,0) scale(-1,1)">
+    <path d="M172 302 C163 322 156 356 155 388 C155 402 157 410 160 417 L173 414 C169 404 168 392 169 378 C171 350 176 322 186 304 Z" fill="url(#cloth)"/>
+    <path d="M169 378 C168 392 169 404 173 414 L160 417 C157 410 155 402 155 388 C155 380 156 370 158 360 Z" fill="#e8dcd5" opacity="0.4"/>
+    <path d="M155 408 C162 415 170 415 175 408 L176 419 C170 425 161 425 156 419 Z" fill="url(#red)"/>
+    <g transform="rotate(-8 160 431)">
+      <ellipse cx="160" cy="431" rx="8.2" ry="9.6" fill="url(#skin)"/>
+      <path d="M154 427 C151 430 152 435 155 437" fill="none" stroke="#e6bcab" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M158 426 L158 437" fill="none" stroke="#e6bcab" stroke-width="1" stroke-linecap="round" opacity="0.55"/>
+    </g>
+  </g>
+
+  <!-- 脖子 -->
+  <path d="M197 258 L223 258 L225 294 C218 301 202 301 195 294 Z" fill="#efc9b7"/>
+  <path d="M197 258 L223 258 L223 272 C215 279 205 279 197 272 Z" fill="#dfae9c" opacity="0.55"/>
+
+  <!-- 头部 -->
+  <g>
+    <path d="M210 132 C242 132 266 152 270 184 C272 204 268 226 260 242 C251 257 233 272 210 272 C187 272 169 257 160 242 C152 226 148 204 150 184 C154 152 178 132 210 132 Z" fill="url(#skin)"/>
+    <path d="M150 184 C154 152 178 132 210 132 C242 132 266 152 270 184 C259 164 240 152 210 152 C180 152 161 164 150 184 Z" fill="url(#bangs-shadow)"/>
+
+    <ellipse cx="172" cy="240" rx="14" ry="6.5" fill="url(#blush)"/>
+    <ellipse cx="248" cy="240" rx="14" ry="6.5" fill="url(#blush)"/>
+
+    <use href="#eye"/>
+    <g transform="translate(420,0) scale(-1,1)"><use href="#eye"/></g>
+
+    <path d="M209 250 L211.4 253.6" fill="none" stroke="#dfa992" stroke-width="1.7" stroke-linecap="round"/>
+    <path d="M205 260 Q210 264.5 215 260" fill="none" stroke="#b26a63" stroke-width="2" stroke-linecap="round"/>
+    <ellipse cx="210" cy="262" rx="3.4" ry="2" fill="#e9919c" opacity="0.28"/>
+
+    <!-- 前发 -->
+    <path d="M128 210 C126 158 154 116 210 116 C266 116 294 158 292 210 C286 196 280 188 274 184 C270 194 264 200 256 202 C250 194 242 190 234 190 C228 184 218 182 210 184 C202 182 192 184 186 190 C178 190 170 194 164 202 C156 200 150 194 146 184 C140 188 132 196 128 210 Z" fill="url(#hair-front)"/>
+    <path d="M210 116 C248 116 274 138 284 172 C274 158 262 150 248 148 C252 162 248 176 238 186 C234 168 226 154 216 148 C213 138 211 126 210 116 Z" fill="#ac4757" opacity="0.26"/>
+    <path d="M128 210 C126 158 154 116 210 116 C207 136 204 154 198 168 C196 178 192 186 186 192 L182 200 C178 190 174 184 168 180 C158 186 148 190 142 184 C138 190 132 198 128 210 Z" fill="#ac4757" opacity="0.18"/>
+    <path d="M186 178 C182 188 178 196 172 202 C170 192 171 182 174 174 Z" fill="#943445"/>
+    <path d="M240 180 C244 190 248 198 254 204 C256 194 255 184 252 176 Z" fill="#943445"/>
+    <path d="M206 176 C204 186 204 194 206 202 C210 194 212 186 212 176 Z" fill="#862c3c"/>
+    <g fill="none" stroke="#cc7b88" stroke-linecap="round" opacity="0.18">
+      <path d="M160 180 C172 156 190 138 212 132" stroke-width="3"/>
+      <path d="M196 184 C202 166 208 150 212 136" stroke-width="2"/>
+      <path d="M260 172 C248 152 232 140 214 134" stroke-width="2.4"/>
+    </g>
+
+    <!-- 侧发 -->
+    <path d="M150 196 C146 236 146 284 150 326 C152 348 156 364 161 376 C168 358 170 338 169 312 C165 272 165 230 168 200 Z" fill="#7d2836"/>
+    <path d="M270 196 C274 236 274 284 270 326 C268 348 264 364 259 376 C252 358 250 338 251 312 C255 272 255 230 252 200 Z" fill="#7d2836"/>
+    <path d="M152 200 C149 240 149 286 152 322 C153 340 156 354 160 364 C164 350 165 332 164 310 C161 272 161 234 164 202 Z" fill="#963647" opacity="0.55"/>
+    <path d="M268 200 C271 240 271 286 268 322 C267 340 264 354 260 364 C256 350 255 332 256 310 C259 272 259 234 256 202 Z" fill="#963647" opacity="0.4"/>
+
+    <!-- 蝴蝶结 -->
+    <g>
+      <path d="M276 174 C266 162 261 150 269 145 C277 140 287 151 285 170 Z" fill="url(#red)"/>
+      <path d="M280 177 C291 166 303 160 307 168 C311 176 299 183 286 184 Z" fill="url(#red)"/>
+      <path d="M277 181 C281 199 274 217 278 237 C281 249 277 259 272 265 C268 253 270 241 268 227 C266 209 272 195 270 183 Z" fill="#a3223a"/>
+      <path d="M283 181 C288 199 289 215 294 229 C297 239 294 249 289 256 C286 243 285 233 283 221 C281 207 282 193 280 183 Z" fill="#8c1730"/>
+      <ellipse cx="279" cy="178" rx="6.4" ry="7.4" fill="#7d1226" transform="rotate(-12 279 178)"/>
+      <path d="M275 173 C277 169 282 169 284 173" fill="none" stroke="#e2697f" stroke-width="1.6" stroke-linecap="round" opacity="0.45"/>
+    </g>
+  </g>
+</svg>

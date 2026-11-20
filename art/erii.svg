@@ -1,0 +1,449 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 560" width="420" height="560" role="img" aria-label="Chibi Uesugi Eri in a red and white miko outfit">
+  <defs>
+    <linearGradient id="erii-hair-back-grad" x1="0" y1="0" x2="0.08" y2="1">
+      <stop offset="0" stop-color="#65202d"/>
+      <stop offset="0.35" stop-color="#531724"/>
+      <stop offset="0.7" stop-color="#43111c"/>
+      <stop offset="1" stop-color="#350c15"/>
+    </linearGradient>
+    <linearGradient id="erii-hair-front-grad" x1="0.15" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#7f2a38"/>
+      <stop offset="0.4" stop-color="#6a202d"/>
+      <stop offset="0.78" stop-color="#561724"/>
+      <stop offset="1" stop-color="#48111b"/>
+    </linearGradient>
+    <radialGradient id="erii-hair-crown" cx="0.42" cy="0.16" r="0.82">
+      <stop offset="0" stop-color="#c46d7a" stop-opacity="0.42"/>
+      <stop offset="0.45" stop-color="#95424f" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#6a2632" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="erii-hair-sheen" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#b25764" stop-opacity="0.38"/>
+      <stop offset="0.6" stop-color="#8b3845" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#702936" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="erii-skin-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdf1e7"/>
+      <stop offset="0.55" stop-color="#f9e2d4"/>
+      <stop offset="1" stop-color="#f1cec0"/>
+    </linearGradient>
+    <linearGradient id="erii-skin-deep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2d2c4"/>
+      <stop offset="1" stop-color="#e5b9aa"/>
+    </linearGradient>
+    <linearGradient id="erii-kosode-grad" x1="0" y1="0" x2="0.12" y2="1">
+      <stop offset="0" stop-color="#fdfaf6"/>
+      <stop offset="0.6" stop-color="#f8f1ea"/>
+      <stop offset="1" stop-color="#e9dcd6"/>
+    </linearGradient>
+    <linearGradient id="erii-sleeve-grad" x1="0" y1="0" x2="1" y2="0.75">
+      <stop offset="0" stop-color="#fdfaf6"/>
+      <stop offset="0.55" stop-color="#f7eee8"/>
+      <stop offset="1" stop-color="#e3d5d2"/>
+    </linearGradient>
+    <linearGradient id="erii-crimson-grad" x1="0" y1="0" x2="0.08" y2="1">
+      <stop offset="0" stop-color="#b24857"/>
+      <stop offset="0.32" stop-color="#963243"/>
+      <stop offset="0.72" stop-color="#7a2232"/>
+      <stop offset="1" stop-color="#661b29"/>
+    </linearGradient>
+    <linearGradient id="erii-crimson-light" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c45a68"/>
+      <stop offset="1" stop-color="#9b3344"/>
+    </linearGradient>
+    <linearGradient id="erii-obi-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b84d5c"/>
+      <stop offset="0.5" stop-color="#953244"/>
+      <stop offset="1" stop-color="#752231"/>
+    </linearGradient>
+    <linearGradient id="erii-ribbon-grad" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#cb5d6c"/>
+      <stop offset="0.5" stop-color="#a33d4e"/>
+      <stop offset="1" stop-color="#7e2837"/>
+    </linearGradient>
+    <linearGradient id="erii-eye-white" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffaf8"/>
+      <stop offset="0.7" stop-color="#fbeeec"/>
+      <stop offset="1" stop-color="#f2dddc"/>
+    </linearGradient>
+    <radialGradient id="erii-iris-grad" cx="0.35" cy="0.3" r="0.78">
+      <stop offset="0" stop-color="#ee9caf"/>
+      <stop offset="0.28" stop-color="#d56983"/>
+      <stop offset="0.6" stop-color="#ad405b"/>
+      <stop offset="0.85" stop-color="#80233d"/>
+      <stop offset="1" stop-color="#5d1730"/>
+    </radialGradient>
+    <radialGradient id="erii-blush-grad" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#eea0a9" stop-opacity="0.38"/>
+      <stop offset="0.6" stop-color="#efaeb5" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#f2bbc0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="erii-hakama-shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6f1c2b" stop-opacity="0"/>
+      <stop offset="0.7" stop-color="#591321" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#460c17" stop-opacity="0.3"/>
+    </linearGradient>
+    <radialGradient id="erii-floor-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3a2230" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#3a2230" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="erii-eye-left-clip">
+      <path d="M171 197 C176 189 188 186 197 191 C202 195 203 202 200 208 C196 215 185 217 177 212 C172 208 169 203 171 197 Z"/>
+    </clipPath>
+    <clipPath id="erii-eye-right-clip">
+      <path d="M249 197 C244 189 232 186 223 191 C218 195 217 202 220 208 C224 215 235 217 243 212 C248 208 251 203 249 197 Z"/>
+    </clipPath>
+    <clipPath id="erii-head-clip">
+      <path d="M210 104 C181 104 160 124 157 154 C155 182 159 209 171 233 C179 252 192 269 208 276 C226 272 240 253 249 233 C261 209 265 182 263 154 C260 124 239 104 210 104 Z"/>
+    </clipPath>
+  </defs>
+
+  <g id="erii-root">
+    <ellipse cx="210" cy="541" rx="92" ry="11" fill="url(#erii-floor-glow)" opacity="0.5"/>
+
+    <!-- ================= HAIR BACK ================= -->
+    <g id="hair-back">
+      <!-- back of the head; deliberately narrow so the silhouette is not a dome -->
+      <path d="M210 76 C250 76 280 102 280 146 C280 186 275 228 270 270 L150 270 C145 228 140 186 140 146 C140 102 170 76 210 76 Z"
+            fill="url(#erii-hair-back-grad)"/>
+      <!-- two long masses behind the shoulders, tapered to points at the tips -->
+      <path d="M158 148 C139 186 122 244 116 308 C111 370 115 432 127 486 C132 504 138 518 146 530 C151 512 156 490 160 466 C164 412 162 342 165 282 C164 238 161 192 158 148 Z"
+            fill="url(#erii-hair-back-grad)"/>
+      <path d="M262 148 C281 186 298 244 304 308 C309 370 305 432 293 486 C288 504 282 518 274 530 C269 512 264 490 260 466 C256 412 258 342 255 282 C256 238 259 192 262 148 Z"
+            fill="url(#erii-hair-back-grad)"/>
+      <!-- thin lighter strands over the dark mass -->
+      <path d="M143 188 C132 258 124 334 124 404 C124 448 129 484 136 512 C140 492 143 464 144 436 C146 370 147 292 150 222 Z"
+            fill="#8a3542" opacity="0.38"/>
+      <path d="M277 188 C288 258 296 334 296 404 C296 448 291 484 284 512 C280 492 277 464 276 436 C274 370 273 292 270 222 Z"
+            fill="#84303d" opacity="0.36"/>
+      <path d="M156 210 C151 278 151 350 154 416 C155 444 154 472 152 494 C149 476 148 450 148 424 C147 364 150 294 152 230 Z"
+            fill="#9b4854" opacity="0.22"/>
+      <path d="M264 210 C269 278 269 350 266 416 C265 444 266 472 268 494 C271 476 272 450 272 424 C273 364 270 294 268 230 Z"
+            fill="#9b4854" opacity="0.2"/>
+      <path d="M158 190 C154 248 154 326 157 398 C159 440 158 472 155 500 C151 482 148 454 147 426 C145 366 147 290 150 220 Z"
+            fill="#3f0e18" opacity="0.58"/>
+      <path d="M262 190 C266 248 266 326 263 398 C261 440 262 472 265 500 C269 482 272 454 273 426 C275 366 273 290 270 220 Z"
+            fill="#3f0e18" opacity="0.53"/>
+      <path d="M134 208 C125 280 121 358 125 430 C127 458 131 482 136 504 C140 482 143 456 144 430 C146 360 143 280 147 220 Z"
+            fill="#8a3542" opacity="0.2"/>
+      <path d="M286 208 C295 280 299 358 295 430 C293 458 289 482 284 504 C280 482 277 456 276 430 C274 360 277 280 273 220 Z"
+            fill="#8a3542" opacity="0.18"/>
+      <path d="M134 222 C126 300 124 380 131 454 C133 478 136 498 140 514 M286 222 C294 300 296 380 289 454 C287 478 284 498 280 514"
+            fill="none" stroke="#b45d6a" stroke-width="1.6" stroke-linecap="round" opacity="0.3"/>
+      <path d="M158 200 C150 278 149 360 154 442 M262 200 C270 278 271 360 266 442"
+            fill="none" stroke="#a54a57" stroke-opacity="0.2" stroke-width="1.6"/>
+      <path d="M126 180 C121 260 120 350 128 438 M294 180 C299 260 300 350 292 438"
+            fill="none" stroke="#2f0911" stroke-opacity="0.28" stroke-width="1.8"/>
+      <path d="M138 150 C160 178 180 196 210 208 C240 196 260 178 282 150 L282 180 C258 202 238 216 210 222 C182 216 162 202 138 180 Z"
+            fill="#361018" opacity="0.35"/>
+    </g>
+
+    <!-- ================= BODY ================= -->
+    <g id="body">
+      <!-- neck -->
+      <path d="M198 264 L198 296 C198 303 203 308 210 308 C217 308 222 303 222 296 L222 264 Z"
+            fill="url(#erii-skin-grad)"/>
+      <path d="M198 264 L198 282 C204 288 216 288 222 282 L222 264 Z"
+            fill="url(#erii-skin-deep)" opacity="0.75"/>
+      <path d="M198 264 C198 272 198 280 198 288 C202 292 218 292 222 288 L222 264 Z"
+            fill="#e7bcad" opacity="0.25"/>
+      <path d="M198 270 C202 280 218 280 222 270 L222 286 C216 292 204 292 198 286 Z"
+            fill="#dfb0a1" opacity="0.38"/>
+
+      <!-- kosode torso, narrower than the head -->
+      <path d="M210 292 C192 292 176 300 168 312 C162 324 159 346 158 370 L159 403 L261 403 L262 370 C261 346 258 324 252 312 C244 300 228 292 210 292 Z"
+            fill="url(#erii-kosode-grad)"/>
+      <path d="M168 312 C162 328 159 350 158 372 L169 372 C170 350 173 330 180 314 Z"
+            fill="#e0d2ce" opacity="0.6"/>
+      <path d="M252 312 C258 328 261 350 262 372 L251 372 C250 350 247 330 240 314 Z"
+            fill="#ddd0cc" opacity="0.45"/>
+      <path d="M210 331 C208 352 208 376 209 399" fill="none" stroke="#e6d8d3" stroke-width="1.6" stroke-linecap="round" opacity="0.85"/>
+      <path d="M168 320 C164 342 162 368 162 394 M252 320 C256 342 258 368 258 394"
+            fill="none" stroke="#e7dbd7" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+      <path d="M178 304 C188 300 200 298 210 298" fill="none" stroke="#fbf3ee" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+      <path d="M242 304 C232 300 220 298 210 298" fill="none" stroke="#fbf3ee" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+
+      <!-- crossed miko collar: white lapels with muted red trim -->
+      <path d="M194 294 C192 306 199 320 210 330 L217 325 C206 315 202 304 203 294 Z" fill="#fcf8f3"/>
+      <path d="M226 294 C228 306 221 320 210 330 L203 325 C214 315 218 304 217 294 Z" fill="#fcf8f3"/>
+      <path d="M194 294 C192 306 199 320 210 330" fill="none" stroke="#9c3444" stroke-width="3.4" stroke-linecap="round"/>
+      <path d="M226 294 C228 306 221 320 210 330" fill="none" stroke="#9c3444" stroke-width="3.4" stroke-linecap="round"/>
+      <path d="M196 293 C202 288 218 288 224 293" fill="none" stroke="#a03a4a" stroke-width="3.4" stroke-linecap="round"/>
+      <path d="M204 295 C204 306 207 315 213 323" fill="none" stroke="#b95b66" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+      <path d="M210 330 L218 324" fill="none" stroke="#8a2a3a" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+
+      <!-- small chest cord -->
+      <path d="M205 344 C207 348 213 348 215 344" fill="none" stroke="#983144" stroke-width="2.1" stroke-linecap="round"/>
+      <circle cx="210" cy="346" r="2.8" fill="#b24a5b"/>
+      <circle cx="210" cy="345.8" r="1.2" fill="#efc0b3"/>
+
+      <!-- obi -->
+      <path d="M159 384 C186 379 234 379 261 384 L260 404 C234 409 186 409 160 404 Z"
+            fill="url(#erii-obi-grad)"/>
+      <path d="M162 388 C188 383 232 383 258 388" fill="none" stroke="#d6828c" stroke-width="1.8" opacity="0.55"/>
+      <path d="M207 399 C199 388 185 389 183 398 C181 407 196 412 208 404 Z" fill="url(#erii-crimson-light)"/>
+      <path d="M213 399 C221 388 235 389 237 398 C239 407 224 412 212 404 Z" fill="url(#erii-crimson-light)"/>
+      <path d="M207 402 C200 394 191 394 189 400 C188 405 197 408 207 404 Z" fill="#732131" opacity="0.5"/>
+      <path d="M213 402 C220 394 229 394 231 400 C232 405 223 408 213 404 Z" fill="#732131" opacity="0.5"/>
+      <ellipse cx="210" cy="401" rx="7.4" ry="6.6" fill="#a43c4e"/>
+      <rect x="205.2" y="394.8" width="9.6" height="12" rx="3.4" fill="#852b3c"/>
+      <rect x="207" y="396.2" width="6" height="6" rx="2.4" fill="#b14b5c"/>
+      <path d="M206 406 C202 417 198 427 196 436 L205 434 C207 423 209 415 212 408 Z" fill="#8e3041"/>
+      <path d="M214 406 C219 415 223 425 227 434 L218 432 C215 422 213 414 210 408 Z" fill="#7a2737"/>
+
+      <!-- hakama, a restrained A-line with vertical pleats -->
+      <path d="M161 400 L259 400 C265 436 272 476 278 510 C258 522 234 528 210 528 C186 528 162 522 142 510 C148 476 155 436 161 400 Z"
+            fill="url(#erii-crimson-grad)"/>
+      <path d="M161 400 L259 400 C265 436 272 476 278 510 C258 522 234 528 210 528 C186 528 162 522 142 510 C148 476 155 436 161 400 Z"
+            fill="url(#erii-hakama-shade)"/>
+      <path d="M182 408 C173 443 165 480 162 512 C177 521 194 525 210 526 L210 408 Z"
+            fill="#c25a68" opacity="0.16"/>
+      <path d="M238 408 C247 443 255 480 256 512 C243 521 226 525 210 526 L210 408 Z"
+            fill="#571421" opacity="0.15"/>
+      <g fill="none" stroke-linecap="round" opacity="0.55">
+        <path d="M178 406 C172 440 165 480 162 512" stroke="#6b1725" stroke-width="2"/>
+        <path d="M196 406 C193 444 189 484 188 523" stroke="#6b1725" stroke-width="1.8"/>
+        <path d="M210 404 L210 526" stroke="#741c2b" stroke-width="1.6" opacity="0.55"/>
+        <path d="M224 406 C227 444 231 484 232 523" stroke="#6b1725" stroke-width="1.8"/>
+        <path d="M242 406 C248 440 255 480 258 512" stroke="#6b1725" stroke-width="2"/>
+      </g>
+      <g fill="none" stroke-linecap="round">
+        <path d="M178 406 C172 440 165 480 162 512" stroke="#5c1220" stroke-width="2.7" opacity="0.5"/>
+        <path d="M210 404 L210 526" stroke="#5c1220" stroke-width="2.6" opacity="0.48"/>
+        <path d="M242 406 C248 440 255 480 258 512" stroke="#5c1220" stroke-width="2.7" opacity="0.45"/>
+      </g>
+      <path d="M166 408 C158 444 152 482 150 509" fill="none" stroke="#d28a93" stroke-opacity="0.3" stroke-width="2"/>
+      <path d="M254 408 C262 444 268 482 270 509" fill="none" stroke="#d28a93" stroke-opacity="0.22" stroke-width="2"/>
+      <path d="M142 510 C162 522 186 528 210 528 C234 528 258 522 278 510"
+            fill="none" stroke="#55111d" stroke-width="4.5" stroke-linecap="round" opacity="0.6"/>
+      <path d="M145 507 C164 518 187 524 210 524 C233 524 256 518 275 507"
+            fill="none" stroke="#c05967" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- tabi feet, visible under the hem -->
+      <path d="M181 517 C179 530 185 540 196 540 C207 540 212 532 210 520 Z" fill="#fdf9f5"/>
+      <path d="M239 517 C241 530 235 540 224 540 C213 540 208 532 210 520 Z" fill="#fdf9f5"/>
+      <path d="M183 531 C189 534 201 534 208 530" fill="none" stroke="#c8b4b2" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M237 531 C231 534 219 534 212 530" fill="none" stroke="#c8b4b2" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M184 523 C190 526 201 526 207 522" fill="none" stroke="#933244" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M236 523 C230 526 219 526 213 522" fill="none" stroke="#933244" stroke-width="2.8" stroke-linecap="round"/>
+    </g>
+
+    <!-- ================= ARMS ================= -->
+    <g id="arm-left" style="transform-box: view-box; transform-origin: 170px 318px;">
+      <path d="M170 318 C161 320 157 328 154 342 C151 360 150 382 152 395 C154 406 160 412 168 410 C174 408 178 401 180 390 L181 338 C179 326 175 320 170 318 Z"
+            fill="url(#erii-sleeve-grad)"/>
+      <path d="M170 320 C164 338 161 364 162 396 C165 382 168 356 171 330 Z"
+            fill="#e2d5d0" opacity="0.5"/>
+      <path d="M153 338 C151 361 150 382 152 396" fill="none" stroke="#f3e9e3" stroke-width="2.6" stroke-linecap="round" opacity="0.9"/>
+      <path d="M153 360 C159 374 168 381 179 377" fill="none" stroke="#ddcdc8" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+      <path d="M151 390 C153 404 160 412 169 411 C175 409 179 402 180 392 L179 383 C176 394 170 400 163 399 C157 398 153 393 152 386 Z"
+            fill="url(#erii-crimson-grad)"/>
+      <path d="M153 392 C159 402 168 406 179 399" fill="none" stroke="#d98791" stroke-width="1.7" stroke-linecap="round" opacity="0.6"/>
+      <path d="M156 408 C152 410 151 416 154 421 C157 426 164 425 167 420 C169 416 168 411 164 409 C161 408 158 407 156 408 Z"
+            fill="url(#erii-skin-grad)" stroke="#e3b3a3" stroke-width="0.9"/>
+      <path d="M164 410 C169 411 170 416 167 420" fill="none" stroke="#d9a696" stroke-width="1.3" stroke-linecap="round"/>
+      <path d="M158 418 C161 419 164 418 166 416 M156 421 C159 422 162 421 164 419" fill="none" stroke="#e0b0a0" stroke-width="1.1" stroke-linecap="round"/>
+    </g>
+
+    <g id="arm-right" style="transform-box: view-box; transform-origin: 250px 318px;">
+      <path d="M250 318 C259 320 263 328 266 342 C269 360 270 382 268 395 C266 406 260 412 252 410 C246 408 242 401 240 390 L239 338 C241 326 245 320 250 318 Z"
+            fill="url(#erii-sleeve-grad)"/>
+      <path d="M250 320 C256 338 259 364 258 396 C255 382 252 356 249 330 Z"
+            fill="#e2d5d0" opacity="0.5"/>
+      <path d="M267 338 C269 361 270 382 268 396" fill="none" stroke="#f3e9e3" stroke-width="2.6" stroke-linecap="round" opacity="0.9"/>
+      <path d="M267 360 C261 374 252 381 241 377" fill="none" stroke="#ddcdc8" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+      <path d="M269 390 C267 404 260 412 251 411 C245 409 241 402 240 392 L241 383 C244 394 250 400 257 399 C263 398 267 393 268 386 Z"
+            fill="url(#erii-crimson-grad)"/>
+      <path d="M267 392 C261 402 252 406 241 399" fill="none" stroke="#d98791" stroke-width="1.7" stroke-linecap="round" opacity="0.6"/>
+      <path d="M264 408 C268 410 269 416 266 421 C263 426 256 425 253 420 C251 416 252 411 256 409 C259 408 262 407 264 408 Z"
+            fill="url(#erii-skin-grad)" stroke="#e3b3a3" stroke-width="0.9"/>
+      <path d="M256 410 C251 411 250 416 253 420" fill="none" stroke="#d9a696" stroke-width="1.3" stroke-linecap="round"/>
+      <path d="M262 418 C259 419 256 418 254 416 M264 421 C261 422 258 421 256 419" fill="none" stroke="#e0b0a0" stroke-width="1.1" stroke-linecap="round"/>
+      <!-- strawberry ice cream, hidden by default -->
+      <g id="icecream" display="none">
+        <path d="M250 409 L266 409 L258 443 Z" fill="#e0b47e"/>
+        <path d="M250 409 L266 409 L258 443 Z" fill="none" stroke="#b98853" stroke-width="1.2"/>
+        <path d="M253 412 L263 422 M252 417 L260 428 M262 411 L257 424" fill="none" stroke="#c99860" stroke-width="1" opacity="0.7"/>
+        <circle cx="258" cy="402" r="12" fill="#f6dfe0"/>
+        <circle cx="253" cy="394" r="8.5" fill="#fff7f1"/>
+        <path d="M247 400 C240 395 241 386 249 385 C252 378 262 377 266 384 C273 385 275 394 269 399 C266 405 253 407 247 400 Z"
+              fill="#f1c2c9"/>
+        <path d="M248 391 C250 383 259 380 263 385" fill="none" stroke="#fff9f5" stroke-width="3.2" stroke-linecap="round" opacity="0.9"/>
+        <circle cx="255" cy="401" r="2.1" fill="#cc5a68" opacity="0.8"/>
+      </g>
+    </g>
+
+    <!-- ================= HEAD ================= -->
+    <g id="head">
+      <g id="face">
+        <path d="M210 104 C181 104 160 124 157 154 C155 182 159 209 171 233 C179 252 192 269 208 276 C226 272 240 253 249 233 C261 209 265 182 263 154 C260 124 239 104 210 104 Z"
+              fill="url(#erii-skin-grad)"/>
+        <!-- gentle cheek and jaw shading, no hard outline -->
+        <path d="M171 218 C176 244 188 263 208 274 C228 268 243 246 249 218 C242 248 230 263 209 268 C190 263 178 248 171 218 Z"
+              fill="#e9c0b2" opacity="0.3"/>
+        <path d="M162 180 C163 208 168 231 178 249 C167 239 160 214 159 186 Z"
+              fill="#e9c0b2" opacity="0.3"/>
+        <path d="M258 180 C257 208 252 231 242 249 C253 239 260 214 261 186 Z"
+              fill="#e9c0b2" opacity="0.27"/>
+        <path d="M157 154 C158 174 160 195 166 214" fill="none" stroke="#e9c3b6" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+        <path d="M263 154 C262 174 260 195 254 214" fill="none" stroke="#e9c3b6" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+
+        <!-- tiny nose -->
+        <path d="M209 232 C211 234 213 234 215 232" fill="none" stroke="#d5a094" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+
+        <!-- thin, low, soft brows -->
+        <g id="brow-left" fill="none" stroke="#7a4a52" stroke-width="1.1" stroke-linecap="round" opacity="0.9">
+          <path d="M171 184 C180 180 193 179 200 183"/>
+        </g>
+        <g id="brow-right" fill="none" stroke="#7a4a52" stroke-width="1.1" stroke-linecap="round" opacity="0.9">
+          <path d="M249 184 C240 180 227 179 220 183"/>
+        </g>
+
+        <!-- light blush -->
+        <g id="blush" opacity="0.72">
+          <ellipse cx="166" cy="227" rx="14" ry="6.5" fill="url(#erii-blush-grad)"/>
+          <ellipse cx="254" cy="227" rx="14" ry="6.5" fill="url(#erii-blush-grad)"/>
+          <path d="M160 225 l3.5 -1.8 M163 229 l3.5 -1.8" stroke="#e59aa1" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+          <path d="M260 225 l-3.5 -1.8 M257 229 l-3.5 -1.8" stroke="#e59aa1" stroke-width="1" stroke-linecap="round" opacity="0.28"/>
+        </g>
+
+        <!-- tiny closed mouth, lower and softly curved -->
+        <g id="mouth">
+          <path d="M204 248 C207 250 211 249.8 214 248" fill="none" stroke="#9f515b" stroke-width="1.7" stroke-linecap="round"/>
+          <path d="M207 251 C210 251.8 212 251.6 214 250.8" fill="none" stroke="#d39192" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+        </g>
+
+        <!-- ================= EYES ================= -->
+        <g id="eyes">
+          <g id="eye-left">
+            <path d="M171 197 C176 189 188 186 197 191 C202 195 203 202 200 208 C196 215 185 217 177 212 C172 208 169 203 171 197 Z"
+                  fill="url(#erii-eye-white)"/>
+            <g clip-path="url(#erii-eye-left-clip)">
+              <ellipse cx="186.5" cy="202.5" rx="10.3" ry="11.5" fill="url(#erii-iris-grad)"/>
+              <ellipse cx="186.5" cy="202.5" rx="10.3" ry="11.5" fill="none" stroke="#6f2038" stroke-width="1.1" opacity="0.8"/>
+              <ellipse cx="186.5" cy="204" rx="4.9" ry="5.6" fill="#461024" opacity="0.86"/>
+              <path d="M178 196 C182 191 189 190 194 194" fill="none" stroke="#f4bac6" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
+              <path d="M165 190 C179 184 194 187 206 196 L206 203 C192 197 178 195 165 200 Z"
+                    fill="#521424" opacity="0.17"/>
+            </g>
+            <g id="pupil-left">
+              <ellipse cx="186.5" cy="204" rx="4.9" ry="5.6" fill="#410f22" opacity="0.9"/>
+              <circle cx="183.7" cy="199.5" r="2.7" fill="#fff1f3"/>
+            </g>
+            <path d="M170 195 C177 188 188 185 197 191" fill="none" stroke="#421620" stroke-width="5.2" stroke-linecap="round"/>
+            <path d="M170 195 C166 194 164 194 162 196" fill="none" stroke="#4a1a23" stroke-width="2.6" stroke-linecap="round"/>
+            <path d="M177 212 C184 216 193 215 200 210" fill="none" stroke="#b97d86" stroke-width="1.6" stroke-linecap="round" opacity="0.8"/>
+            <path d="M178 213 C184 215 192 214 198 211" fill="none" stroke="#fff5f1" stroke-width="0.7" stroke-linecap="round" opacity="0.35"/>
+            <path d="M175 187 C182 183 192 183 197 186" fill="none" stroke="#d8a79b" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+          </g>
+
+          <g id="eye-right">
+            <path d="M249 197 C244 189 232 186 223 191 C218 195 217 202 220 208 C224 215 235 217 243 212 C248 208 251 203 249 197 Z"
+                  fill="url(#erii-eye-white)"/>
+            <g clip-path="url(#erii-eye-right-clip)">
+              <ellipse cx="233.5" cy="202.5" rx="10.3" ry="11.5" fill="url(#erii-iris-grad)"/>
+              <ellipse cx="233.5" cy="202.5" rx="10.3" ry="11.5" fill="none" stroke="#6f2038" stroke-width="1.1" opacity="0.8"/>
+              <ellipse cx="233.5" cy="204" rx="4.9" ry="5.6" fill="#461024" opacity="0.86"/>
+              <path d="M242 196 C238 191 231 190 226 194" fill="none" stroke="#f4bac6" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
+              <path d="M255 190 C241 184 226 187 214 196 L214 203 C228 197 242 195 255 200 Z"
+                    fill="#521424" opacity="0.17"/>
+            </g>
+            <g id="pupil-right">
+              <ellipse cx="233.5" cy="204" rx="4.9" ry="5.6" fill="#410f22" opacity="0.9"/>
+              <circle cx="230.7" cy="199.5" r="2.7" fill="#fff1f3"/>
+            </g>
+            <path d="M250 195 C243 188 232 185 223 191" fill="none" stroke="#421620" stroke-width="5.2" stroke-linecap="round"/>
+            <path d="M250 195 C254 194 256 194 258 196" fill="none" stroke="#4a1a23" stroke-width="2.6" stroke-linecap="round"/>
+            <path d="M243 212 C236 216 227 215 220 210" fill="none" stroke="#b97d86" stroke-width="1.6" stroke-linecap="round" opacity="0.8"/>
+            <path d="M242 213 C236 215 228 214 222 211" fill="none" stroke="#fff5f1" stroke-width="0.7" stroke-linecap="round" opacity="0.35"/>
+            <path d="M245 187 C238 183 228 183 223 186" fill="none" stroke="#d8a79b" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+          </g>
+
+          <g id="eyelid-left" display="none">
+            <path d="M166 192 C173 183 188 180 198 188 L202 207 C200 217 186 222 175 215 C169 211 165 200 166 192 Z"
+                  fill="url(#erii-skin-grad)"/>
+            <path d="M170 195 C178 205 188 209 199 203" fill="none" stroke="#e3b5a6" stroke-width="1.6" stroke-linecap="round" opacity="0.7"/>
+          </g>
+          <g id="eyelid-right" display="none">
+            <path d="M254 192 C247 183 232 180 222 188 L218 207 C220 217 234 222 245 215 C251 211 255 200 254 192 Z"
+                  fill="url(#erii-skin-grad)"/>
+            <path d="M250 195 C242 205 232 209 221 203" fill="none" stroke="#e3b5a6" stroke-width="1.6" stroke-linecap="round" opacity="0.7"/>
+          </g>
+        </g>
+      </g>
+
+      <!-- ================= HAIR FRONT ================= -->
+      <g id="hair-front">
+        <!-- cap and centre-parted fringe: two clean swept halves -->
+        <path d="M210 78
+                 C171 78 141 103 140 145
+                 C140 164 145 182 152 199
+                 C156 184 161 171 169 160
+                 C169 169 171 175 175 181
+                 C181 168 189 161 199 155
+                 C197 161 196 166 196 171
+                 C202 162 207 155 210 148 Z"
+              fill="url(#erii-hair-front-grad)"/>
+        <path d="M210 78
+                 C249 78 279 103 280 145
+                 C280 164 275 182 268 199
+                 C264 184 259 171 251 160
+                 C251 169 249 175 245 181
+                 C239 168 231 161 221 155
+                 C223 161 224 166 224 171
+                 C218 162 213 155 210 148 Z"
+              fill="url(#erii-hair-front-grad)"/>
+        <!-- part line and crown light -->
+        <path d="M210 80 C210 100 210 124 210 146" fill="none" stroke="#49121c" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+        <path d="M146 150 C150 105 176 84 210 82 C244 84 270 105 274 150 C256 117 236 102 210 102 C184 102 164 117 146 150 Z"
+              fill="url(#erii-hair-crown)"/>
+        <path d="M156 154 C159 112 181 92 210 90 C239 92 261 112 264 154 C248 124 231 111 210 111 C189 111 172 124 156 154 Z"
+              fill="url(#erii-hair-sheen)"/>
+        <!-- fringe strand accents, subtle so the face stays clean -->
+        <g fill="none" stroke-linecap="round">
+          <path d="M174 122 C180 140 180 158 177 178" stroke="#4f1420" stroke-width="1.6" opacity="0.38"/>
+          <path d="M246 122 C240 140 240 158 243 178" stroke="#4f1420" stroke-width="1.6" opacity="0.38"/>
+          <path d="M158 142 C164 155 171 166 180 174" stroke="#a84f5c" stroke-width="1.7" opacity="0.32"/>
+          <path d="M262 142 C256 155 249 166 240 174" stroke="#a84f5c" stroke-width="1.7" opacity="0.3"/>
+          <path d="M190 145 C195 154 200 160 206 165" stroke="#4f1420" stroke-width="1.3" opacity="0.3"/>
+          <path d="M230 145 C225 154 220 160 214 165" stroke="#4f1420" stroke-width="1.3" opacity="0.3"/>
+        </g>
+        <!-- two thin side locks hanging just outside the face, curving gently outward -->
+        <path d="M148 158 C138 194 132 238 134 282 C136 308 141 328 146 344 C151 326 153 306 151 280 C149 242 151 202 155 170 Z"
+              fill="url(#erii-hair-front-grad)"/>
+        <path d="M272 158 C282 194 288 238 286 282 C284 308 279 328 274 344 C269 326 267 306 269 280 C271 242 269 202 265 170 Z"
+              fill="url(#erii-hair-front-grad)"/>
+        <path d="M143 180 C137 216 133 256 136 288 C138 304 141 316 144 328"
+              fill="none" stroke="#a34a58" stroke-width="2.2" stroke-linecap="round" opacity="0.32"/>
+        <path d="M277 180 C283 216 287 256 284 288 C282 304 279 316 276 328"
+              fill="none" stroke="#a34a58" stroke-width="2.2" stroke-linecap="round" opacity="0.28"/>
+      </g>
+    </g>
+
+    <!-- ribbon tied at the back, visible on the right side of the hair -->
+    <g id="ribbon">
+      <g transform="matrix(0.85 0 0 0.85 43.95 20.25)">
+        <path d="M292 134 C278 115 261 117 260 132 C259 148 277 153 292 134 Z" fill="url(#erii-ribbon-grad)"/>
+        <path d="M295 134 C309 113 326 117 326 132 C326 148 311 153 295 134 Z" fill="url(#erii-ribbon-grad)"/>
+        <path d="M292 134 C280 122 270 123 270 131 C270 140 281 144 292 134 Z" fill="#d87b87" opacity="0.42"/>
+        <path d="M295 134 C307 122 317 123 317 131 C317 140 306 144 295 134 Z" fill="#d87b87" opacity="0.34"/>
+        <path d="M288 140 C283 162 280 185 283 214 L293 209 C289 187 292 163 297 141 Z" fill="#913143"/>
+        <path d="M296 140 C302 158 307 176 306 197 L298 193 C299 175 295 157 290 141 Z" fill="#7a2636"/>
+        <ellipse cx="293" cy="135" rx="6.2" ry="6.8" fill="#a23c4e"/>
+        <ellipse cx="291" cy="133" rx="2.9" ry="2.4" fill="#e1939e" opacity="0.82"/>
+      </g>
+    </g>
+
+    <!-- optional emotion props, hidden by default -->
+    <g id="tear" display="none">
+      <path d="M171 208 C165 220 164 229 170 234 C177 239 185 232 183 223 C182 216 176 210 171 208 Z"
+            fill="#a9dcee"/>
+      <path d="M170 216 C168 223 169 228 173 231" fill="none" stroke="#e8f9ff" stroke-width="1.8" stroke-linecap="round" opacity="0.8"/>
+    </g>
+    <g id="sleep-zzz" display="none" fill="none" stroke="#c6b2d5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+      <path d="M300 96 L316 96 L301 112 L317 112" stroke-width="4"/>
+      <path d="M324 74 L337 74 L325 87 L339 87" stroke-width="3.2"/>
+      <path d="M304 58 L313 58 L305 67 L314 67" stroke-width="2.4"/>
+    </g>
+  </g>
+</svg>

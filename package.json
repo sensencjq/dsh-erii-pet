@@ -1,0 +1,56 @@
+{
+  "name": "dsh-erii-pet",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "把《龙族》的上杉绘梨衣请到桌面上：红发、红白巫女风的动态桌宠，安静少话、爱吃冰淇淋，会用她清澈的小声音陪你。页内与桌面两种形态，图集动画 + 本地 Edge TTS。",
+  "license": "MIT",
+  "author": "sensencjq",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sensencjq/dsh-erii-pet.git"
+  },
+  "homepage": "https://github.com/sensencjq/dsh-erii-pet#readme",
+  "bugs": "https://github.com/sensencjq/dsh-erii-pet/issues",
+  "icon": "assets/icon.png",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "desktop-pet",
+    "erii",
+    "龙族"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./assets/icon.png"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "src",
+    "helper",
+    "data",
+    "assets",
+    "art",
+    "locale",
+    "docs",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  }
+}

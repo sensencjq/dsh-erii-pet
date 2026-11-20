@@ -1,0 +1,5 @@
+# dsh-erii-pet 的 bundle patch：把插件行挂进配置树。
+# id 必须与本包名一致（管理页与商城契约按它比对 entryIds）。
+- insert:
+    - id: dsh-erii-pet
+      name: 'dsh-erii-pet'
